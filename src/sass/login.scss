@@ -1,0 +1,386 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    min-width: 960px;
+    background: #fff;
+}
+
+#logo {
+    height: 85px;
+    width: 960px;
+    margin: 0 auto;
+    a {
+        width: 360px;
+        height: 85px;
+        overflow: hidden;
+        float: left;
+        font-size: 0;
+        line-height: 0;
+        color: #ed145b;
+        text-decoration: none;
+        background: url(../images/logo_new_v1.jpg) no-repeat top left;
+    }
+    .logo-box {
+        padding-top: 35px;
+        float: right;
+        .top-link {
+            width: 110px;
+            height: 31px;
+            overflow: hidden;
+            margin-right: 24px;
+            float: left;
+        }
+        .credit {
+            background: url(../images/header_corn_new_v2.png) no-repeat 0 0;
+        }
+        .gild {
+            width: 170px;
+            background: url(../images/gild.png) no-repeat;
+        }
+        .lightning {
+            background: 0 -64px url(../images/header_corn_new_v2.png) no-repeat;
+        }
+    }
+}
+
+
+/******中间部分******/
+
+.sign {
+    line-height: 1.5;
+    .loginWrap {
+        margin-top: 50px;
+        height: 445px;
+        margin-bottom: 50px;
+        margin: 100px auto;
+        width: 965px;
+        line-height: 1.5;
+        .loginImg {
+            background: url(../images/loginPic.jpg) no-repeat;
+            width: 960px;
+            height: 370px;
+            position: relative;
+            top: -50px;
+            .sign-link {
+                display: block;
+                position: absolute;
+                width: 420px;
+                height: 370px;
+            }
+            .loginBord {
+                box-shadow: 0 0 1px rgba(0, 0, 0, .05);
+                border: 1px solid #ededed;
+                background: rgba(255, 255, 255, .85);
+                position: absolute;
+                min-height: 400px;
+                padding: 0 23px;
+                width: 298px;
+                color: #333;
+                top: -11px;
+                right: -5px;
+                .loginTit {
+                    margin-bottom: 15px;
+                    width: 300px;
+                    height: 60px;
+                    line-height: 60px;
+                    h1 {
+                        float: left;
+                        font-weight: 400;
+                        font-size: 20px;
+                        color: #e31256;
+                    }
+                    .tosign {
+                        color: #969696;
+                        float: right;
+                        font-size: 12px;
+                        a {
+                            color: #ed145b;
+                            text-decoration: none;
+                        }
+                    }
+                }
+                .radio-wrapper {
+                    height: 30px;
+                    span {
+                        display: block;
+                        padding-right: 30px;
+                        float: left;
+                        font: 400 13.3333px Arial;
+                        input {
+                            vertical-align: middle;
+                        }
+                    }
+                }
+                #login-dy {
+                    .text-user {
+                        position: relative;
+                        margin-bottom: 26px;
+                        width: 300px;
+                        height: 44px;
+                        input {
+                            display: block;
+                            padding: 10px 8px 10px 38px;
+                            width: 254px;
+                            background-position: 5px 0;
+                            box-shadow: none;
+                            border: 1px solid #CFCFCF;
+                            background-color: #fff;
+                            line-height: 1.5;
+                            font-size: 14px;
+                            background: url(../images/login-sign.png) no-repeat;
+                        }
+                        .focus-text {
+                            display: none;
+                            margin-top: 4px;
+                            color: #999;
+                            font-size: 12px;
+                            position: absolute;
+                            top: 100%;
+                            left: 0;
+                        }
+                        .invalid {
+                            width: 290px;
+                            height: 1.5em;
+                            font-size: 12px;
+                            margin-top: 4px;
+                            color: #999;
+                            display: none;
+                            i {
+                                margin-top: -10px;
+                                height: 20px;
+                                width: 20px;
+                                background: url(../images/sign0.png) 0 -100px;
+                                position: absolute;
+                                left: 0px;
+                                top: 54px;
+                            }
+                            .msg {
+                                margin-left: 18px;
+                            }
+                        }
+                    }
+                    .dy-pass {
+                        width: 300px;
+                        height: 44px;
+                        margin-top: 10px;
+                        .pass {
+                            input {
+                                width: 88px;
+                                padding-left: 38px;
+                                border: 1px solid #CFCFCF;
+                                background-color: #fff;
+                                vertical-align: middle;
+                                padding: 10px 8px 10px 38px;
+                                line-height: 1.5;
+                                font-size: 14px;
+                                outline: 0;
+                                height: auto;
+                                background: url(../images/login-sign.png) no-repeat 0 0;
+                            }
+                            .focus-text {
+                                display: none;
+                                margin-top: 4px;
+                                color: #999;
+                                font-size: 12px;
+                                position: absolute;
+                            }
+                            .invalid {
+                                width: 290px;
+                                float: left;
+                                height: 1.5em;
+                                font-size: 12px;
+                                margin-top: 4px;
+                                color: #999;
+                                display: none;
+                                i {
+                                    margin-top: -10px;
+                                    height: 20px;
+                                    width: 20px;
+                                    background: url(../images/sign0.png) 0 -100px;
+                                    position: absolute;
+                                    left: 24px;
+                                    top: 230px;
+                                }
+                                .msg {
+                                    margin-left: 18px;
+                                }
+                            }
+                        }
+                        .phonecode {
+                            width: 130px;
+                            font-size: 12px;
+                            background: linear-gradient(to bottom, #fcfcfc, #f2f2f2);
+                            border: 1px solid #d9d9d9;
+                            text-decoration: none;
+                            cursor: pointer;
+                            padding: 0 8px;
+                            display: inline-block;
+                            line-height: 41px;
+                            height: 41px;
+                            font-weight: 700;
+                            color: #666;
+                            margin-left: 10px;
+                            text-align: center;
+                        }
+                    }
+                    p {
+                        display: block;
+                        width: 300px;
+                        margin: 30px 0 10px 0;
+                        font-size: 12px;
+                    }
+                    .loginbtn {
+                        width: 100%;
+                        height: 40px;
+                        background: #F8296D;
+                        text-align: center;
+                        line-height: 40px;
+                        font-weight: 700;
+                        font-size: 14px;
+                        cursor: pointer;
+                        padding: 0 30px;
+                        color: #fff;
+                        border: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.iconAccout {
+    font-size: 12px;
+    div {
+        padding-bottom: 10px;
+        padding-top: 5px;
+    }
+    p {
+        display: block;
+        width: 300px;
+        height: 43px;
+        margin-bottom: 15px;
+        a {
+            display: block;
+            width: 43px;
+            height: 43px;
+            margin-right: 10px;
+            float: left;
+            text-decoration: none;
+            background: url(../images/icon_light.jpg) no-repeat;
+        }
+        .a2 {
+            background-position: -57px 0;
+        }
+        .a3 {
+            background-position: -114px 0;
+        }
+        .a4 {
+            background-position: -169px 0;
+        }
+        .a5 {
+            background-position: -224px 0;
+        }
+        .a6 {
+            background-position: 0 -54px;
+        }
+        .a7 {
+            background-position: -57px -54px;
+        }
+        .a9 {
+            background-position: -169px -54px;
+        }
+        span {
+            line-height: 30px;
+            position: relative;
+            left: -7px;
+            cursor: pointer;
+            float: left;
+            margin-top: 5px;
+            i {
+                width: 18px;
+                height: 17px;
+                display: inline-block;
+                position: absolute;
+                right: -21px;
+                top: 7px;
+                background: url(../images/icon_light.jpg) no-repeat -272px 0;
+            }
+        }
+    }
+}
+
+.shadow-l {
+    position: absolute;
+    height: 100%;
+    width: 8px;
+    top: 0;
+    left: -9px;
+    background: url(../images/shadow.png) no-repeat center;
+}
+
+.shadow-r {
+    position: absolute;
+    height: 100%;
+    width: 8px;
+    top: 0;
+    right: -1px;
+    background: url(../images/shadow1.png) no-repeat center;
+}
+
+
+/******底部*******/
+
+.footer {
+    padding-top: 5px;
+    .footer-con {
+        width: 1090px;
+        margin: 0 auto;
+        overflow: hidden;
+        background: #fff;
+        font-size: 12px;
+        text-align: center;
+        line-height: 20px;
+        padding-bottom: 80px;
+        .footer-copy-con {
+            display: block;
+            padding: 14px 0 18px;
+            a {
+                text-decoration: none;
+                color: #000;
+                line-height: 23px;
+            }
+        }
+        .footer-copy-logo {
+            width: 126px;
+            height: 50px;
+            float: left;
+            overflow: hidden;
+            display: block;
+            margin: 0 4px;
+            margin-right: 14px;
+            border-bottom: 1px solid #d7d7d7;
+            background: url(../images/footer_btm_icon.png) no-repeat;
+        }
+        .logo01 {
+            cursor: default;
+            margin-left: 195px;
+        }
+        .logo02 {
+            background: url(../images/footer_btm_icon.png) no-repeat -126px 0;
+        }
+        .logo03 {
+            background: url(../images/footer_btm_icon.png) no-repeat -252px 0;
+            cursor: default;
+        }
+        .logo04 {
+            background: url(../images/footer_btm_icon.png) no-repeat -378px 0;
+            cursor: default;
+        }
+        .logo05 {
+            background: url(../images/footer_btm_icon.png) no-repeat -504px 0;
+        }
+    }
+}

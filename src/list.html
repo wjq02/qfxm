@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>商品列表</title>
+    <link rel="shortcut icon" href="./favicon.ico" />
+    <link rel="stylesheet" href="./css/list.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="../node_modules//bootstrap/dist/css/bootstrap.min.css">
+    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../node_modules/layui-layer/dist/layer.js"></script>
+    <script src="./js/page.js"></script>
+    <script src="./js/common.js"></script>
+    <script src="./js/cookie.js"></script>
+    <script src="./js/list.js?s=1"></script>
+</head>
+
+<body>
+    <!-- 头部开始 -->
+    <div class="header-container">
+        <div class="new-user">
+            <div class="header-wrapper">
+                <!-- 头部top开始 -->
+                <div class="header-top">
+                    <!--top 版心 -->
+                    <div class="header-top-box">
+                        <ul class="left">
+                            <li>欢迎来到聚美！</li>
+                            <li><a href="login.html">请登录</a></li>
+                            <li><a href="reg.html">快速注册</a></li>
+                        </ul>
+                        <ul class="right">
+                            <li><a href="#">订单查询</a></li>
+                            <li>
+                                <a href="#">收藏的品牌<s class=icon-favorite></s></a>
+
+                            </li>
+                            <li><a href="user.html">我的聚美
+                        <s class="icon-arrow"></s>
+                    </a></li>
+                            <li>
+                                <a href="" class="mobile"> <span class="line"></span>
+                                    <s class="icon-mobile"></s>手机聚美</a>
+
+                            </li>
+                            <li><a href="#">更多</a>
+                                <span class="line"></span></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="header-logo">
+            <div class="head-certif">
+                <div class="cart-all">
+                    <a href="#" class="cart-box">
+                        <span class="cart-logtext">去购物车结算</span>
+                    </a>
+                </div>
+            </div>
+            <a href="#" class="global-logo" title="飞一般的免税店体验"></a>
+        </div>
+    </div>
+    <!-- 头部结束 -->
+
+    <!-- 中间部分 开始 -->
+    <div id="special">
+        <div class="model-1">
+            <div class="img-map"></div>
+        </div>
+        <div class="bx">
+            <div class="content goods">
+                <div class="row">
+                    <!-- <div class="col-lg-4 col-md-3 col-sm-6 col-xs-12">
+                    <div class="thumbnail">
+                        <img src="${item.img}" alt="...">
+                        <div class="caption">
+                        <h3 class="goodsname">${item.name}</h3>
+                        <p class="description">${item.description}</p>
+                        <p><a href="#" class="btn btn-primary" role="button">查看详情</a> <a href="#" class="btn btn-default" role="button">立即购买</a></p>
+                        </div>
+                    </div>
+                </div> -->
+                </div>
+            </div>
+        </div>
+        <div class="page"></div>
+    </div>
+
+    <!-- 中间部分结束 -->
+
+    <!-- 底部 -->
+    <div class="footer-container">
+        <div class="footer-bottom">
+            <div class="head-wrapper clearfix">
+                <div class="footer-links">
+                    <h2>极速免税店保障</h2>
+                    <ul>
+                        <li><a href="http://www.jumeiglobal.com/about/?from=footer" target="_blank" rel="nofollow">海外直邮</a></li>
+                        <li><a href="http://www.jumeiglobal.com/about/?from=footer" target="_blank" rel="nofollow">无忧保障</a></li>
+                        <li><a href="http://mp5.jmstatic.com/mobile/pc/Jumei_HongKong.jpg" target="_blank" rel="nofollow">营业执照</a></li>
+                        <li><a href="http://hd.jumeiglobal.com/act/8-1-287899-2021haitaoneigouhuihaiguan0120pc.html?from=footer" target="_blank" rel="nofollow">保税仓直邮</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h2>新手帮助</h2>
+                    <ul>
+                        <li><a href="http://www.jumeiglobal.com/about/?from=footer" target="_blank" rel="nofollow">常见问题</a></li>
+                        <li><a href="http://www.jumeiglobal.com/about/?from=footer" target="_blank" rel="nofollow">违规争议处理</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h2>相关条款</h2>
+                    <ul>
+                        <li><a href="http://www.jumeiglobal.com/page/business" target="_blank" rel="nofollow">极速免税店招商</a></li>
+                        <li><a href="http://www.jumeiglobal.com/about/?from=footer" target="_blank" rel="nofollow">服务条款协议</a></li>
+                        <li><a href="http://www.jumeiglobal.com/about/?from=footer" target="_blank" rel="nofollow">用户服务协议</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links footer-kefu">
+                    <h2>客服联系方式</h2>
+                    <ul>
+                        <li class="f16"><span class="footer-icon f-phone"></span>400-011-0888</li>
+                        <li><span class="footer-icon f-con"></span><a href="javascript:;" id="footer-faq" rel="nofollow">点击咨询在线客服</a></li>
+                    </ul>
+                </div>
+            </div>
+            <p class="footer-copy-con">
+                Copyright 2017, 版权所有JUMEIGLOBAL.COM 客服电话：400-011-0888
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
